@@ -10,7 +10,7 @@ program
   .description('Convert video to gif')
   .version('1.0.0')
   .arguments('<input>', 'Path to video file')
-  .option('-o, --output <output>', 'Path to output gif file (optional)')
+  .option('-o, --output <output>', 'Specify the output file path and name. If omitted, the GIF is saved in the same directory as the input file with the same name but with a `.gif` extension. | Derived from input file')
   .option('-s, --size <resolution>', 'Resize GIF resolution (e.g., 640x480, 320x?)', '640x?')
   .option('-f, --fps <frames>', 'Set GIF frame rate (default: 10)', '10')
   .action((input, options) => {
