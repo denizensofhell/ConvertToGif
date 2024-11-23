@@ -7,10 +7,10 @@
 ## Installation
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed on your system.
-2. Install the tool globally using `npm`:
+2. Navigate to the project directory in the terminal and run the following command to install the tool globally:
 
    ```bash
-   npm install -g convertToGif
+   npm link
    ```
 
 3. Confirm the installation by running:

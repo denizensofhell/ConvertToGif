@@ -2,5 +2,26 @@
   "dependencies": {
     "commander": "^12.1.0",
     "fluent-ffmpeg": "^2.1.3"
-  }
+  },
+  "name": "converttogif",
+  "version": "1.0.0",
+  "description": "Convert video to GIF",
+  "main": "convert.js",
+  "devDependencies": {},
+  "bin": {
+    "convert-to-gif": "./convert-to-gif.js"
+  },
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizensofhell/ConvertToGif.git"
+  },
+  "author": "denizensofhell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denizensofhell/ConvertToGif/issues"
+  },
+  "homepage": "https://github.com/denizensofhell/ConvertToGif#readme"
 }

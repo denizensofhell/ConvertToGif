@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { program } = require('commander');
 const ffmpeg = require('fluent-ffmpeg');
 const path = require('path');
