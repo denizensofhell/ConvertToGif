@@ -52,7 +52,7 @@ convertToGif [options] <inputFile>
 This converts `input.mp4` to `input.gif` in the same directory as the input file:
 
 ```bash
-> convertToGif input.mp4
+convertToGif input.mp4
 ```
 
 ### Specify Output Location and Name
@@ -60,7 +60,7 @@ This converts `input.mp4` to `input.gif` in the same directory as the input file
 Save the GIF to a specific file path:
 
 ```bash
-> convertToGif input.mov -o /home/user/animations/output.gif
+convertToGif input.mov -o /home/user/animations/output.gif
 ```
 
 ### Customize Resolution
@@ -68,7 +68,7 @@ Save the GIF to a specific file path:
 Resize the GIF to a specific resolution, keeping the aspect ratio:
 
 ```bash
-> convertToGif input.avi -s 320x240
+convertToGif input.avi -s 320x240
 ```
 
 ### Adjust Frame Rate
@@ -76,7 +76,7 @@ Resize the GIF to a specific resolution, keeping the aspect ratio:
 Increase the frame rate for smoother animations:
 
 ```bash
-> convertToGif input.mkv -f 15
+convertToGif input.mkv -f 15
 ```
 
 ---
