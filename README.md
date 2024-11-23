@@ -10,7 +10,7 @@
 2. Navigate to the project directory in the terminal and run the following command to install the tool globally:
 
    ```bash
-   npm link
+   npm setup
    ```
 
 3. Confirm the installation by running:

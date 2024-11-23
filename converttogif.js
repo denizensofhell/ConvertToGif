@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const { program } = require('commander');
-const ffmpeg = require('fluent-ffmpeg');
-const path = require('path');
-const fs = require('fs');
+import { program } from 'commander';
+import ffmpeg from 'fluent-ffmpeg';
+import path from 'path';
+import fs from 'fs';
 
 const supportedFormats = ['.mp4', '.mov', '.avi', '.mkv', '.webm'];
 
